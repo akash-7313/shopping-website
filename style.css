@@ -270,6 +270,8 @@ hr{
 
 /* media query */
 
+/* mobile device */
+
 @media only screen and (max-width:688px) {
     .flexible{
         text-align: center;
@@ -290,4 +292,14 @@ hr{
     small{
         display: block;
     }
+    .copyright h4{
+        color: blue;
+        font-weight: 400;
+    }
+    .copyright p,h4{
+        display: inline;
+    }
 }
+/* tablet device */
+
+@media only screen and (min-width:689px) and (max-width:1023px) 
