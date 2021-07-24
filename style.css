@@ -266,6 +266,14 @@ hr{
     text-align: center;
     font-size: 20px;
 }
+.copyright h4{
+    color: blue;
+    font-weight: 400;
+}
+.copyright p,h4{
+    display: inline;
+}
+
 
 
 /* media query */
@@ -291,13 +299,6 @@ hr{
     }
     small{
         display: block;
-    }
-    .copyright h4{
-        color: blue;
-        font-weight: 400;
-    }
-    .copyright p,h4{
-        display: inline;
     }
 }
 /* tablet device */
