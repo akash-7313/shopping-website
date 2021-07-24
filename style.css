@@ -301,6 +301,8 @@ hr{
         display: block;
     }
 }
+
+
 /* tablet device */
 
 @media only screen and (min-width:689px) and (max-width:1023px) {
